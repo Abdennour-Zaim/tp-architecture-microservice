@@ -1,0 +1,8 @@
+<bean
+        id="IServiceImpl"
+        class="com.example.demo.IServiceImpl" />
+
+<bean id="A" class="com.example.demo.A">
+<property name="service" ref="IServiceImpl" />
+</bean>
+
